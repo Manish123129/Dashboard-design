@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="conatiner-fluid">
+        <aside>
+            <div class="toggle_btn">
+                <div class="logo_design">
+                    <div class="logo">
+                        <img src="assets/logo (2).png" alt="">
+                    </div>
+                    <h2>
+                        Asmr<span class="danger">Prog</span>
+                    </h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <ul class="menu">
+                    <li>
+                        <a href="">
+                            <span class="material-icons-sharp">
+                                dashboard
+                            </span>
+                            <h3>Dashboard</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="material-icons-sharp">
+                                person_outline
+                            </span>
+                            <h3>Users</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="active">
+                            <span class="material-icons-sharp">
+                                insights
+                            </span>
+                            <h3>Analytics</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="material-icons-sharp">
+                                mail_outline
+                            </span>
+                            <h3>Tickets</h3>
+                            <span class="message-count">27</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="material-icons-sharp">
+                                receipt_long
+                            </span>
+                            <h3>History</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="material-icons-sharp">
+                                inventory
+                            </span>
+                            <h3>Sale List</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="material-icons-sharp">
+                                report_gmailerrorred
+                            </span>
+                            <h3>Reports</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="material-icons-sharp">
+                                settings
+                            </span>
+                            <h3>Settings</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="material-icons-sharp">
+                                add
+                            </span>
+                            <h3>New Login</h3>
+                        </a>
+                    </li>
+                    <li class="logout">
+                        <a href="">
+                            <span class="material-icons-sharp">
+                                logout
+                            </span>
+                            <h3>Logout</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+
+        <!-- ****main-content **** -->
+
+
+        <div class="main_content">
+            <header>
+                <div class="page-title">
+                    <button id="menu-btn">
+                        <span class="material-icons-sharp">
+                            menu
+                        </span>
+                    </button>
+                    <h1>Analytics</h1>
+                </div>
+                <div>
+                    <div class="dark-mode">
+                        <span class="material-icons-sharp active">
+                            light_mode
+                        </span>
+                        <span class="material-icons-sharp">
+                            dark_mode
+                        </span>
+                    </div>
+
+                    <div class="profile">
+                        <div class="info">
+                            <p>Hey, <b>Reza</b></p>
+                            <small class="text-muted">Admin</small>
+                        </div>
+                        <div class="profile-photo">
+                            <img src="assets/profile-1 (1).jpg">
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="main_detail">
+                <div class="left_detail">
+                    <div>
+                        <h1>
+                            <span>
+                                Analytics
+                            </span>
+                        </h1>
+                    </div>
+                    <div class="card_box">
+                        <div class="card sales">
+                            <div class="card-body">
+                                <div>
+                                    <h3>Total Sales</h3>
+                                    <div>
+                                        <span>$65,024</span>
+                                    </div>
+                                </div>
+                                <div class="progress">
+                                    <svg>
+                                        <circle cx="38" cy="38" r="36"></circle>
+                                    </svg>
+                                    <div class="percentage">
+                                        <p>+81%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card visit">
+                            <div class="card-body">
+                                <div>
+                                    <h3>Total Visits</h3>
+                                    <div>
+                                        <span>45,564</span>
+                                    </div>
+                                </div>
+                                <div class="progress">
+                                    <svg>
+                                        <circle cx="38" cy="38" r="36"></circle>
+                                    </svg>
+                                    <div class="percentage">
+                                        <p>+15%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card search">
+                            <div class="card-body">
+                                <div>
+                                    <h3>Searches </h3>
+                                    <div>
+                                        <span>15,589</span>
+                                    </div>
+                                </div>
+                                <div class="progress">
+                                    <svg>
+                                        <circle cx="38" cy="38" r="36"></circle>
+                                    </svg>
+                                    <div class="percentage">
+                                        <p>+13%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="new_users">
+                        <div class="user_title">
+                            <h2>
+                                New Users
+                            </h2>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="user-info">
+                                    <figure>
+                                        <img src="assets/profile-1.jpg" alt="user-image">
+                                    </figure>
+                                    <div>
+                                        <h2>John</h2>
+                                        <span>
+                                            23 Min Ago
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="user-info">
+                                    <figure>
+                                        <img src="assets/profile-3.jpg" alt="user-image">
+                                    </figure>
+                                    <div>
+                                        <h2>Sam</h2>
+                                        <span>
+                                            55 Min Ago
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="user-info">
+                                    <figure>
+                                        <img src="assets/profile-4.jpg" alt="user-image">
+                                    </figure>
+                                    <div>
+                                        <h2>John</h2>
+                                        <span>
+                                            34 Min Ago
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="user-info">
+                                    <figure>
+                                        <img src="assets/plus.png" alt="user-image">
+                                    </figure>
+                                    <div>
+                                        <h2>More</h2>
+                                        <span>
+                                            New User
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabel_section">
+                        <div class="user_title">
+                            <h2>
+                                Recent Orders
+                            </h2>
+                        </div>
+                        <div class="card">
+                            <div class="table_info">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                Course Name
+                                            </th>
+                                            <th>
+                                                Course Number
+                                            </th>
+                                            <th>
+                                                Payment
+                                            </th>
+                                            <th>
+                                                Status
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                HTML tutorial
+                                            </td>
+                                            <td>
+                                                54685
+                                            </td>
+                                            <td>
+                                                Due
+                                            </td>
+                                            <td class="warning">Pending</td>
+                                            <td class="primary">Details</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                CSS tutorial
+                                            </td>
+                                            <td>
+                                                95685
+                                            </td>
+                                            <td>
+                                                Refunded
+                                            </td>
+                                            <td class="danger">Declined</td>
+                                            <td class="primary">Details</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                JavaScript tutorial
+                                            </td>
+                                            <td>
+                                                35215
+                                            </td>
+                                            <td>
+                                                Paid
+                                            </td>
+                                            <td class="primary">Active</td>
+                                            <td class="primary">Details</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_detail">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="log-info">
+                                <figure>
+                                    <img src="assets/logo (2).png" alt="user-image">
+                                </figure>
+                                <div>
+                                    <h2>AsmrProg</h2>
+                                    <span>
+                                        Full Web Developer
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reminder_title">
+                        <h2>
+                            Reminders
+                        </h2>
+                        <div>
+                            <span class="material-icons-sharp">
+                                notifications_none
+                            </span>
+                        </div>
+                    </div>
+                    <div class="workshop_design">
+                        <div class="card">
+                            <div>
+                                <div class="vol_icon">
+                                    <span class="material-icons-sharp">
+                                        volume_up
+                                    </span>
+                                </div>
+                                <div>
+                                    <h3>
+                                        Workshop
+                                    </h3>
+                                    <small>
+                                        08:00 AM - 12:00PM
+                                    </small>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="material-icons-sharp">
+                                    more_vert
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <div class="edit_icon">
+                                    <span class="material-icons-sharp">
+                                        edit
+                                    </span>
+                                </div>
+                                <div>
+                                    <h3>
+                                        Workshop
+                                    </h3>
+                                    <small>
+                                        08:00 AM - 12:00PM
+                                    </small>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="material-icons-sharp">
+                                    more_vert
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card add_reminder">
+                            <div>
+                                <span class="material-icons-sharp">
+                                    add
+                                </span>
+                                <span>
+                                    Add Reminder
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+
+</html>
